@@ -1,52 +1,52 @@
-# Music-Bot-djs-v14
-A powerful and customizable Discord music bot using Discord.js v14. This bot allows users to play, control, and manage music playback in a server with an easy-to-use slash command interface.
+# Discord Music Bot 🎵  
+A sleek and powerful music bot built with Discord.js v14. Play and manage music in your server using easy slash commands.
 
-## Features  
-✅ Play music from YouTube and other sources  
-✅ Supports queue management (add, remove, shuffle, loop)  
-✅ Pause, resume, and seek functionality  
-✅ Displays current playing track information  
-✅ Adjustable volume control  
-✅ Slash command support for easy interaction  
-✅ Stores queue per server using JSON  
+## 🌟 Features  
+- 🎶 Play music from YouTube and more  
+- 📃 Queue system (add, skip, shuffle, loop)  
+- ⏯ Pause, resume, and seek  
+- 🎧 Now playing info display  
+- 🔊 Volume control (1–150)  
+- 🧩 Slash command support  
+- 💾 Per-server queue stored in JSON  
 
-## Commands  
+## 💬 Commands  
 - `/play <query>` – Play a song  
-- `/skip` – Skip the current song  
-- `/stop` – Stop the music and clear the queue  
-- `/pause` – Pause the current song  
-- `/resume` – Resume the paused song  
-- `/queue` – View the current queue  
-- `/np` – Show now playing song  
-- `/volume <amount>` – Set the volume (1-150)  
+- `/skip` – Skip the current track  
+- `/stop` – Stop and clear the queue  
+- `/pause` – Pause playback  
+- `/resume` – Resume playback  
+- `/queue` – Show the queue  
+- `/np` – Now playing  
+- `/volume <amount>` – Set volume  
 - `/shuffle` – Shuffle the queue  
-- `/loop <mode>` – Loop the current song or queue (Track/Queue/Off)  
-- `/seek <seconds>` – Seek to a specific time in the song    
+- `/loop <mode>` – Loop track/queue/off  
+- `/seek <seconds>` – Jump to a time  
 
-## Installation  
-1. Clone the repository:  
+## ⚙️ Setup  
+1. Clone the repo  
    ```bash
-   git clone https://github.com/azaresw/Music-Bot-djs-v14.git
-   cd discord-music-bot
+   git clone https://github.com/william2sober/Discord-Music-Bot.git
+   cd Discord-Music-Bot
    ```  
-2. Install dependencies:  
+2. Install dependencies  
    ```bash
    npm install
    ```  
-3. Configure your bot:  
-   - Edit `config.json` and add your bot token  
-4. Start the bot:  
+3. Add your bot token in `config.json`  
+4. Run the bot  
    ```bash
    node index.js
    ```  
 
-## Requirements  
+## 📦 Requirements  
 - Node.js v20+  
 - Discord.js v14  
 
-## Contributing  
-Pull requests are welcome! Feel free to submit bug reports and feature suggestions.  
+## 🙌 Contribute  
+Pull requests and ideas are welcome!  
 
-## Need Support  
-Join my server [here](https://dsc.gg/azeydev) for support.
+## 💬 Support  
+Need help? [Join the support server](https://discord.gg/G8hJGkZMqD)  
 
+📂 [GitHub Repo](https://github.com/william2sober/Discord-Music-Bot)
