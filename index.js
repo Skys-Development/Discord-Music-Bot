@@ -1,6 +1,7 @@
 const { Client, Collection, GatewayIntentBits, REST, Routes, SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { Manager } = require('erela.js');
 const fs = require('fs');
+require('dotenv').config();
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
